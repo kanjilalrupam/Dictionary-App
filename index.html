@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Dictionary App for Testing API">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rupam kanjilal">
+    <link rel="icon" type="image/x-icon" href="./icons8-bookmark-16.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+    <title>Dictionary App</title>
+</head>
+<body class="bg-[#91C8E4]">
+    
+<nav class="bg-transparent fixed w-full z-20 top-0 left-0   ">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-center mx-auto p-4">
+    <a href="" class="flex items-center">     
+        <span class="self-center text-3xl font-semibold whitespace-nowrap capitalize text-[#4682A9] font-bold">Dictionary App</span>
+    </a>
+    
+  </nav>
+  
+    <!-- BODY  -->
+    <div class="body h-screen w-screen   flex justify-center items-center px-2">
+        <div class="container w-screen md:w-1/2 h-auto rounded-md bg-[#F6F4EB] shadow-xl text-[#4682A9] px-4 md:px-12">
+            <div class="w-full flex justify-center my-4">
+                <div class="w-full flex flex-col  md:flex-row justify-between">
+                    <input type="text" placeholder="Seach the Word" class="outline-none border-b-2 border-[#4682A9]  bg-transparent md:w-3/4  mt-8 md:my-8 " id="form-input">
+                    <button class="shadow-md border-2 bg-[#4682A9]  hover:bg-[#749BC2] text-md text-white rounded-md px-6 py-2 mt-8 mb-8 md:my-8 " id="seach-btn">Search</button>
+                </div>
+            </div>
+            <div class="my-4 container" id="result" > 
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
